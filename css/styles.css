@@ -1,0 +1,73 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+/* Loading image style */
+.wrapper{
+    width: 500px;
+    height: 300px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0 0;
+    color: rgb(13 105 221);
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#cancel-tbn {
+    display: flex;
+    justify-content: center;
+}
+
+#cancel-tbn .change{
+    padding-right: 10px;
+    font-size: 24px;
+}
+#inpFile input{
+    display: flex;
+    justify-content: center;
+}
+.image_prev{
+    display: none;
+    width: 100%;
+    height: 295px;
+}
+.image-preview{
+    overflow: hidden;
+}
+.changeImg{
+    display: flex;
+    justify-content: center;
+}
+.changeImg i{
+    padding-right: 10px;
+}
+.content{
+    display: grid;
+    align-items: center;
+}
+/* Filters */
+.rangeContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+.rangeContainer input{
+    margin-right: 44px;
+}

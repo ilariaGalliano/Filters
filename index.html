@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Filters</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="image-preview" id="imagePreview">
+                <img src="" alt="pic" class="image_prev">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <div class="upload">
+                    <input type="file" id="inpFile" class="inputStyle">
+                </div>
+            </div>
+        </div>
+
+        <div class="rangeContainer">
+            <div class="slideContainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <p>Value: <span id="valueRange"></span>% Grayscale</p>
+            </div>
+    
+            <div class="slideContainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myR">
+                <p>Value: <span id="val"></span>% Saturate</p>
+            </div>
+    
+            <div class="slideContainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRs">
+                <p>Value: <span id="vals"></span>% Sepia</p>
+            </div>
+        </div>
+        
+        
+
+       
+
+    </div>
+
+</body>
+<script src="js/main.js">
+
+</script>
+</html>
+
